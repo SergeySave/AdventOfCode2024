@@ -48,8 +48,6 @@ So, in this example, 2 reports are safe.
 
 Analyze the unusual data from the engineers. How many reports are safe?
 
-Your puzzle answer was 299.
-
 --- Part Two ---
 
 The engineers are surprised by the low number of safe reports until they
