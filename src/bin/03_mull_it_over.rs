@@ -65,7 +65,6 @@ results of just the enabled multiplications?
 
 use std::fs;
 use std::str::FromStr;
-use itertools::Itertools;
 use regex::{Captures, Regex};
 
 fn main() {
