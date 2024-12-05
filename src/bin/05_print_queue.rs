@@ -135,9 +135,10 @@ together produces 123.
 Find the updates which are not in the correct order. What do you get if you
 add up the middle page numbers after correctly ordering just those updates?
  */
-use std::collections::{BTreeSet, HashMap, HashSet};
-use std::fs;
+use advent_of_code2024::dfs::depth_first_search;
 use itertools::Itertools;
+use std::collections::{HashMap, HashSet};
+use std::fs;
 
 fn main() {
     let input_file = fs::read_to_string("./inputs/05_print_queue.txt").unwrap();
@@ -190,37 +191,16 @@ fn get_sum_correct_middle_page_numbers(input: &str) -> u64 {
 
 /// Solve part 2
 fn get_sum_incorrect_middle_page_numbers(input: &str) -> u64 {
+    let empty = HashSet::default();
     eval_on_pages(input, |before_mapping, pages| {
         // Using DFS to perform a topological sorting
         let mut sorted_pages = Vec::with_capacity(pages.len());
-        let mut unvisited_pages = BTreeSet::from_iter(pages.iter().cloned());
-        let mut in_progress_pages = HashSet::new();
 
-        fn visit(page: u64, before_mapping: &HashMap<u64, HashSet<u64>>, unvisited_pages: &mut BTreeSet<u64>, in_progress_pages: &mut HashSet<u64>, sorted_pages: &mut Vec<u64>) {
-            if !unvisited_pages.contains(&page) {
-                return
-            }
-            if in_progress_pages.contains(&page) {
-                panic!("cycle detected!"); // This shouldn't happen due to the structure of this problem
-            }
-
-            in_progress_pages.insert(page);
-
-            // If there is nothing that needs to appear after this then no problem
-            if let Some(after_set) = before_mapping.get(&page) {
-                for next_page in after_set {
-                    visit(*next_page, before_mapping, unvisited_pages, in_progress_pages, sorted_pages);
-                }
-            }
-
-            in_progress_pages.remove(&page);
-            unvisited_pages.remove(&page);
-            sorted_pages.insert(0, page);
-        }
-
-        while let Some(page) = unvisited_pages.first() {
-            visit(*page, before_mapping, &mut unvisited_pages, &mut in_progress_pages, &mut sorted_pages);
-        }
+        let _ = depth_first_search(
+            &pages,
+            |page| before_mapping.get(page).unwrap_or(&empty).iter(),
+            |page| sorted_pages.insert(0, *page)
+        ).expect("DFS Failed");
 
         sorted_pages[sorted_pages.len() / 2]
     }, |_, _| 0)
