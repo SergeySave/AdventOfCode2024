@@ -7,6 +7,7 @@
 3. [Mull It Over](src/bin/03_mull_it_over.rs)
 4. [Ceres Search](src/bin/04_ceres_search.rs)
 5. [Print Queue](src/bin/05_print_queue.rs)
+6. [Guard Gallivant](src/bin/06_guard_gallivant.rs)
 
 ## Retrospective
 
