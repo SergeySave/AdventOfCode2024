@@ -9,6 +9,7 @@
 5. [Print Queue](src/bin/05_print_queue.rs)
 6. [Guard Gallivant](src/bin/06_guard_gallivant.rs)
 7. [Bridge Repair](src/bin/07_bridge_repair.rs)
+8. [Resonant Collinearity](src/bin/08_resonant_collinearity.rs)
 
 ## Retrospective
 
