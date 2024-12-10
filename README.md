@@ -10,6 +10,7 @@
 6. [Guard Gallivant](src/bin/06_guard_gallivant.rs)
 7. [Bridge Repair](src/bin/07_bridge_repair.rs)
 8. [Resonant Collinearity](src/bin/08_resonant_collinearity.rs)
+9. [Disk Fragmenter](src/bin/09_disk_fragmenter.rs)
 
 ## Retrospective
 
