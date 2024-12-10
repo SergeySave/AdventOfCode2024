@@ -11,6 +11,7 @@
 7. [Bridge Repair](src/bin/07_bridge_repair.rs)
 8. [Resonant Collinearity](src/bin/08_resonant_collinearity.rs)
 9. [Disk Fragmenter](src/bin/09_disk_fragmenter.rs)
+10. [Hoof It](src/bin/10_hoof_it.rs)
 
 ## Retrospective
 
