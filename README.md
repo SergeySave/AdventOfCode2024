@@ -15,6 +15,7 @@
 11. [Plutonian Pebbles](src/bin/11_plutonian_pebbles.rs)
 12. [Garden Groups](src/bin/12_garden_groups.rs)
 13. [Claw Contraption](src/bin/13_claw_contraption.rs)
+14. [Restroom Redoubt](src/bin/14_restroom_redoubt.rs)
 
 ## Retrospective
 
