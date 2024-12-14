@@ -13,6 +13,7 @@
 9. [Disk Fragmenter](src/bin/09_disk_fragmenter.rs)
 10. [Hoof It](src/bin/10_hoof_it.rs)
 11. [Plutonian Pebbles](src/bin/11_plutonian_pebbles.rs)
+12. [Garden Groups](src/bin/12_garden_groups.rs)
 
 ## Retrospective
 
