@@ -271,7 +271,7 @@ fn get_sum_trailhead_scores(input: &str) -> u64 {
 }
 
 fn get_sum_trailhead_ratings(input: &str) -> u64 {
-    let mut map = preprocess(input);
+    let map = preprocess(input);
     let trailheads = map.trailheads.clone();
 
     let mut result = 0;

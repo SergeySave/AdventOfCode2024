@@ -12,6 +12,7 @@
 8. [Resonant Collinearity](src/bin/08_resonant_collinearity.rs)
 9. [Disk Fragmenter](src/bin/09_disk_fragmenter.rs)
 10. [Hoof It](src/bin/10_hoof_it.rs)
+11. [Plutonian Pebbles](src/bin/11_plutonian_pebbles.rs)
 
 ## Retrospective
 
