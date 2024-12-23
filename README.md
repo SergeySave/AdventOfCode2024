@@ -17,6 +17,7 @@
 13. [Claw Contraption](src/bin/13_claw_contraption.rs)
 14. [Restroom Redoubt](src/bin/14_restroom_redoubt.rs)
 15. [Warehouse Woes](src/bin/15_warehouse_woes.rs)
+16. [Reindeer Maze](src/bin/16_reindeer_maze.rs)
 
 ## Retrospective
 
