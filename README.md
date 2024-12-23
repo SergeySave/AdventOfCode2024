@@ -16,6 +16,7 @@
 12. [Garden Groups](src/bin/12_garden_groups.rs)
 13. [Claw Contraption](src/bin/13_claw_contraption.rs)
 14. [Restroom Redoubt](src/bin/14_restroom_redoubt.rs)
+15. [Warehouse Woes](src/bin/15_warehouse_woes.rs)
 
 ## Retrospective
 
