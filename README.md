@@ -21,6 +21,7 @@
 17. [Chronospatial Computer](src/bin/17_chronospatial_computer.rs)
 18. [RAM Run](src/bin/18_ram_run.rs)
 19. [Linen Layout](src/bin/19_linen_layout.rs)
+20. [Race Condition](src/bin/20_race_condition.rs)
 
 ## Retrospective
 
