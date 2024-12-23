@@ -18,6 +18,7 @@
 14. [Restroom Redoubt](src/bin/14_restroom_redoubt.rs)
 15. [Warehouse Woes](src/bin/15_warehouse_woes.rs)
 16. [Reindeer Maze](src/bin/16_reindeer_maze.rs)
+17. [Chronospatial Computer](src/bin/17_chronospatial_computer.rs)
 
 ## Retrospective
 
