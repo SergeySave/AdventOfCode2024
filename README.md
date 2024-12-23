@@ -19,6 +19,7 @@
 15. [Warehouse Woes](src/bin/15_warehouse_woes.rs)
 16. [Reindeer Maze](src/bin/16_reindeer_maze.rs)
 17. [Chronospatial Computer](src/bin/17_chronospatial_computer.rs)
+18. [RAM Run](src/bin/18_ram_run.rs)
 
 ## Retrospective
 
