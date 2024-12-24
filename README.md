@@ -24,6 +24,7 @@
 20. [Race Condition](src/bin/20_race_condition.rs)
 21. [Keypad Conundrum](src/bin/21_keypad_conundrum.rs)
 22. [Monkey Market](src/bin/22_monkey_market.rs)
+23. [LAN Party](src/bin/23_lan_party.rs)
 
 ## Retrospective
 
