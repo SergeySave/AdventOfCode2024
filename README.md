@@ -22,6 +22,7 @@
 18. [RAM Run](src/bin/18_ram_run.rs)
 19. [Linen Layout](src/bin/19_linen_layout.rs)
 20. [Race Condition](src/bin/20_race_condition.rs)
+21. [Keypad Conundrum](src/bin/21_keypad_conundrum.rs)
 
 ## Retrospective
 
