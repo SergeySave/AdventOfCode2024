@@ -23,6 +23,7 @@
 19. [Linen Layout](src/bin/19_linen_layout.rs)
 20. [Race Condition](src/bin/20_race_condition.rs)
 21. [Keypad Conundrum](src/bin/21_keypad_conundrum.rs)
+22. [Monkey Market](src/bin/22_monkey_market.rs)
 
 ## Retrospective
 
